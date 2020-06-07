@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C63A1D3A-0E12-4552-8F2A-24ADA07A5810}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2AD10988-F477-401F-9E72-9031BED8D4F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MayoSolutions.Framework", "src\MayoSolutions.Framework\MayoSolutions.Framework.csproj", "{7E4CD0E3-A22C-4F32-992D-AEF448028371}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E4CD0E3-A22C-4F32-992D-AEF448028371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E4CD0E3-A22C-4F32-992D-AEF448028371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E4CD0E3-A22C-4F32-992D-AEF448028371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E4CD0E3-A22C-4F32-992D-AEF448028371}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E4CD0E3-A22C-4F32-992D-AEF448028371} = {C63A1D3A-0E12-4552-8F2A-24ADA07A5810}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67B22F15-676F-442F-BD8C-02FAE161E312}
+	EndGlobalSection
+EndGlobal
