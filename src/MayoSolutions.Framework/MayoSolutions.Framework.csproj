@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	  <TargetFrameworks>netstandard2.0;netstandard2.1;net47</TargetFrameworks>
+	  <TargetFrameworks>netstandard2.0;netstandard2.1;net471;net472;net48;net5.0</TargetFrameworks>
 	  <AssemblyName>MayoSolutions.Framework</AssemblyName>
 	  <RootNamespace>MayoSolutions.Framework</RootNamespace>
 	  <Company>Mayo Solutions</Company>
 	  <Authors>Rob Mayo</Authors>
-	  <Version>0.0.5</Version>
+	  <Version>0.0.6</Version>
 	  <PackageVersion>$(VersionSuffix)</PackageVersion>
 	  <PackageId>MayoSolutions.Framework</PackageId>
 	  <Title>MayoSolutions.Framework</Title>
@@ -23,7 +23,7 @@
 
   <ItemGroup>
     <PackageReference Include="JetBrains.Annotations" Version="2020.1.0" />
-    <PackageReference Include="MayoSolutions.Common" Version="0.0.13" />
+    <PackageReference Include="MayoSolutions.Common" Version="0.0.14" />
   </ItemGroup>
 
 </Project>
