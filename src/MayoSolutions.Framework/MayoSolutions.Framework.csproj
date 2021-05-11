@@ -6,7 +6,7 @@
 	  <RootNamespace>MayoSolutions.Framework</RootNamespace>
 	  <Company>Mayo Solutions</Company>
 	  <Authors>Rob Mayo</Authors>
-	  <Version>0.0.6</Version>
+	  <Version>0.0.7</Version>
 	  <PackageVersion>$(VersionSuffix)</PackageVersion>
 	  <PackageId>MayoSolutions.Framework</PackageId>
 	  <Title>MayoSolutions.Framework</Title>
@@ -23,7 +23,7 @@
 
   <ItemGroup>
     <PackageReference Include="JetBrains.Annotations" Version="2020.1.0" />
-    <PackageReference Include="MayoSolutions.Common" Version="0.0.14" />
+    <PackageReference Include="MayoSolutions.Common" Version="0.0.16" />
   </ItemGroup>
 
 </Project>
