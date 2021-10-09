@@ -28,7 +28,8 @@ namespace MayoSolutions.Framework.Configuration
             if (!File.Exists(fileName)) return;
             
             string json = File.ReadAllText(fileName);
-            var loaded = JsonConvert.DeserializeObject<JsonFileConfigurationValuesBase>(json);
+            var loaded = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
+            if (loaded == null) return;
             foreach (var kvp in loaded)
             {
                 Add(kvp.Key, kvp.Value);
