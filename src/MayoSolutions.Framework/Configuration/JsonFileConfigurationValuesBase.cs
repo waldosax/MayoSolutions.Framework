@@ -9,7 +9,7 @@ namespace MayoSolutions.Framework.Configuration
     /// Base class for JSON file-based configuration.
     /// </summary>
     [JsonDictionary]
-    public abstract class JsonFileConfigurationValuesBase : Dictionary<string, string>, IConfigurationValues
+    public class JsonFileConfigurationValuesBase : Dictionary<string, string>, IConfigurationValues
     {
         protected JsonFileConfigurationValuesBase() 
             : base(StringComparer.OrdinalIgnoreCase)
