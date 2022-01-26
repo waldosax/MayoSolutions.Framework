@@ -6,7 +6,7 @@
 	  <RootNamespace>MayoSolutions.Framework</RootNamespace>
 	  <Company>Mayo Solutions</Company>
 	  <Authors>Rob Mayo</Authors>
-	  <Version>0.0.9.4</Version>
+	  <Version>0.0.10.0</Version>
 	  <PackageVersion>$(VersionSuffix)</PackageVersion>
 	  <PackageId>MayoSolutions.Framework</PackageId>
 	  <Title>MayoSolutions.Framework</Title>
